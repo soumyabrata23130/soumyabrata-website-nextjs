@@ -7,7 +7,7 @@ export default function() {
 			<Image src="/Picture1.jpg" alt="Profile photo" width="260" height="312" style={{ float: "right" }}/>
 			<h2>About me</h2>
 			<br/>
-			<p>I am a computer science and engineering student and a tech enthusiast. Web development is my area of expertise. I have mastered C, Java, and Python programming languages, along with frontend development in HTML, CSS, and JavaScript. I am currently learning React and Next.js. My goal is to complete my study in B. Tech and secure a challenging job where I can provide my expertise and become a seasoned professional in web development.</p>
+			<p>Born in the 2000s, I am a computer science and engineering student and a tech enthusiast. Web development is my area of expertise. I have mastered C, Java, and Python programming languages, along with frontend development in HTML, CSS, and JavaScript. I am currently learning React and Next.js. My goal is to complete my study in B. Tech and secure a challenging job where I can provide my expertise and become a seasoned professional in web development.</p>
 			<br/>
 			<h2>Academic qualifications</h2>
 			<br/>
@@ -61,7 +61,7 @@ export default function() {
 					<li>Address: Natunpally, Ward 8, P.O. Burdwan-713101</li>
 					<li>District: Purba Bardhaman</li>
 					<li>State: West Bengal, India</li>
-					<li>Date of Birth: 27 May 2006</li>
+					<li>Birthday: 27 May</li>
 					<li>Languages: Bengali (first), English (second), Hindi</li>
 				</ul>
 		</div>
