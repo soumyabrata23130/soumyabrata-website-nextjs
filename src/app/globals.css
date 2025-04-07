@@ -1,19 +1,21 @@
 :root {
-  --background: #ffffff;
+  --background: #f0f0f2;
+  --box: white;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
+	--box: #202020;
     --foreground: #ededed;
   }
 }
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+	max-width: 100vw;
+	overflow-x: hidden;
 }
 
 body {
@@ -24,6 +26,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.box {
+	margin: 0.5em auto;
+	padding: 1.5em;
+	width: 60%;
+	background: var(--box);
+	border-radius: 0.5em;
+	box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
+}
+
+.qualifications,
+.qualifications th,
+.qualifications td {
+	border: 1px solid;
+	border-collapse: collapse;
+	padding: 0.5rem;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -31,8 +50,13 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	position: relative;
+	left: 2rem;
 }
 
 @media (prefers-color-scheme: dark) {
