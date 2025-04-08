@@ -35,12 +35,9 @@ body {
 	box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
 }
 
-.qualifications,
-.qualifications th,
-.qualifications td {
-	border: 1px solid;
-	border-collapse: collapse;
-	padding: 0.5rem;
+.homepage-table td {
+	padding: 0.8rem;
+	vertical-align: text-top;
 }
 
 * {

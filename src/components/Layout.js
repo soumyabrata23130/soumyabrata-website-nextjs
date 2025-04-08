@@ -6,11 +6,18 @@ export default function Layout({children}) {
 	return (
 		<div>
 			<header>
-				<h2 style={{ margin: "0", textAlign: "left" }}><Link href="/">Soumya's Website</Link></h2>
-				<nav style={{ display: "flex",  gap: "1rem" }}>
-					<Link href="/caesar">Caesar Cipher</Link>
-					<Link href="/number-type">Number Type Checker</Link>
-					<Link href="/weather">Weather</Link>
+				<h1 style={{ fontSize: "144%", margin: "0" }}><Link href="">Soumyabrata's Website</Link></h1>
+				<nav>
+					<Link className="button" href="/blog">Blog</Link>
+					<div className="projects">
+						<div className="button">Projects</div>
+						<ul>
+							<li><Link href="/caesar">Caesar Cipher</Link></li>
+							<li><Link href="/number-type">Number Type Checker</Link></li>
+							<li><Link href="/weather">Weather</Link></li>
+						</ul>
+					</div>
+					<Link className="button" href="/resources">Resources</Link>
 				</nav>
 			</header>
 			<main style={{ minHeight: "30rem", padding: "1rem" }}>
