@@ -2,7 +2,7 @@
 My personal website in Next.js, containing several small-scale frontend web projects.
 
 ## Main
-The homepage containing résumé-like information about me with contact details.
+My portfolio with academic qualifications, areas of expertise and personal details.
 
 ## Caesar
 My Caesar cipher project to encrypt and decrypt a given text with Caesar cipher.
