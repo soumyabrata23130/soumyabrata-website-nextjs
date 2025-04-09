@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Soumya's Website",
+  title: "Soumyabrata's Website",
   description: "Website of Soumyabrata Bhattacharjee",
 };
 

@@ -1,4 +1,5 @@
 import React from "react"
+import Image from "next/image"
 import Link from "next/link"
 import "./styles.css"
 
@@ -6,7 +7,7 @@ export default function Layout({children}) {
 	return (
 		<div>
 			<header>
-				<h1 style={{ fontSize: "144%", margin: "0" }}><Link href="">Soumyabrata's Website</Link></h1>
+				<h1 style={{ fontSize: "144%", margin: "0" }}><Link href="/">Soumyabrata's Website</Link></h1>
 				<nav>
 					<Link className="button" href="/blog">Blog</Link>
 					<div className="projects">
@@ -17,10 +18,10 @@ export default function Layout({children}) {
 							<li><Link href="/weather">Weather</Link></li>
 						</ul>
 					</div>
-					<Link className="button" href="/resources">Resources</Link>
+					<Link className="button" href="/websites">Websites</Link>
 				</nav>
 			</header>
-			<main style={{ minHeight: "30rem", padding: "1rem" }}>
+			<main>
     			{children}
     		</main>
 			<footer>
@@ -34,8 +35,8 @@ export default function Layout({children}) {
 					<Link href="https://www.linkedin.com/in/soumyabrata-bhattacharjee-8a3aa5308">LinkedIn</Link>
 					<Link href="https://x.com/soumyabhatta_of">X</Link>
 				</nav>
-				<br/>
-				<p>Copyright © 2022-2025 Soumyabrata Bhattacharjee</p>
+				<p className="copyright">Copyright © 2022-2025 Soumyabrata Bhattacharjee</p>
+				<p className="copyright">This work is licensed under <Link href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY 4.0</Link></p>
 			</footer>
 		</div>
 	)
