@@ -41,9 +41,7 @@ export default function Weather() {
 				<button type="submit" onClick={weather}>Get data</button>
 			</div>
 			<div style={{ display: "grid", justifyContent: "center" }}>
-				<br/>
-				{temp && <h3>Weather data of {city}, {country}</h3>}
-				<br/>
+				{temp && <h3 style={{ textAlign: "center" }}>Weather data of {city}, {country}</h3>}
 				<ul>
 					{temp && <li>Temperature: {temp} ℃
 						<ul>

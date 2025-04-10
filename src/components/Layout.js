@@ -14,6 +14,7 @@ export default function Layout({children}) {
 						<div className="button">Projects</div>
 						<ul>
 							<li><Link href="/caesar">Caesar Cipher</Link></li>
+							<li><Link href="/news">News</Link></li>
 							<li><Link href="/number-type">Number Type Checker</Link></li>
 							<li><Link href="/weather">Weather</Link></li>
 						</ul>
