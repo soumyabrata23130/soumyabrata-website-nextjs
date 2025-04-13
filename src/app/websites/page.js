@@ -26,6 +26,7 @@ export default function Websites() {
 							<ul>
 								<li><Link href="https://gdg.community.dev/gdg-on-campus-academy-of-technology-hooghly-india/">GDG On Campus</Link></li>
 								<li><Link href="https://www.sccseaot.com/">Students' Chapter CSE</Link></li>
+								<li><Link href="https://sc-csbs.vercel.app/">Students' Chapter CSBS</Link></li>
 								<li><Link href="https://www.sceceaot.com/">Students' Chapter ECE</Link></li>
 							</ul>
 						</td>

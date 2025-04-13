@@ -1,0 +1,10 @@
+.icon {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.temp-details div,
+.temp-details p {
+	font-size: 0.9rem;
+	padding: 0.2rem;
+}
