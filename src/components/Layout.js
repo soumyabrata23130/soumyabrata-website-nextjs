@@ -23,10 +23,10 @@ export default function Layout({children}) {
 				</nav>
 			</header>
 			<main>
-    			{children}
-    		</main>
+				{children}
+			</main>
 			<footer>
-				<nav style={{ display: "flex",  gap: "1rem", justifyContent: "center" }}>
+				<nav style={{ display: "flex", gap: "1rem", justifyContent: "center" }}>
 					<p>Contact:</p>
 					<Link href="mailto:soumyabrata8974@gmail.com">Email</Link>
 					<Link href="tel:+917908876512">Phone</Link>

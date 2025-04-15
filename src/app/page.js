@@ -6,8 +6,7 @@ export default function() {
 		<div>
 			<Image src="/Picture1.jpg" alt="Profile photo" width="180" height="220" style={{ float: "right" }}/>
 			<h2>About me</h2>
-			<br/>
-				<p>Born in the 2000s, I am a computer science and engineering student and a tech enthusiast. Web design and development are my areas of expertise. I have mastered frontend development in HTML, CSS, and JavaScript, along with languages like C, Java and Python. I am currently learning React and Next.js. My goal is to complete my study in B. Tech and secure a challenging job where I can provide my expertise and become a seasoned professional in web development.</p>
+			<p>Born in the 2000s, I am a computer science and engineering student and a tech enthusiast. Web design and development are my areas of expertise. I have mastered frontend development in HTML, CSS, and JavaScript, along with languages like C, Java and Python. I am currently learning React and Next.js. My goal is to complete my study in B. Tech and secure a challenging job where I can provide my expertise and become a seasoned professional in web development.</p>
 			<br/>
 			<table className="homepage-table">
 				<tbody>
